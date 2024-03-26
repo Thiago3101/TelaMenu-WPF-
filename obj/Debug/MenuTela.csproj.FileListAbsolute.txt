@@ -1,0 +1,15 @@
+C:\Users\2022102020032\source\repos\MenuTela\bin\Debug\MenuTela.exe.config
+C:\Users\2022102020032\source\repos\MenuTela\bin\Debug\MenuTela.exe
+C:\Users\2022102020032\source\repos\MenuTela\bin\Debug\MenuTela.pdb
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.csproj.AssemblyReference.cache
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MainWindow.g.cs
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\App.g.cs
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela_MarkupCompile.cache
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela_MarkupCompile.lref
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MainWindow.baml
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.g.resources
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.Properties.Resources.resources
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.csproj.GenerateResource.cache
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.csproj.CoreCompileInputs.cache
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.exe
+C:\Users\2022102020032\source\repos\MenuTela\obj\Debug\MenuTela.pdb
