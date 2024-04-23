@@ -55,7 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Telas\Cadastro_aluno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Cadastro_curso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Telas\Cadastro_Escola.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Cadastro_Turma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consulta_aluno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consulta_curso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consulta_Escola.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consulta_Turma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -67,8 +95,29 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Telas\Cadastro_aluno.xaml.cs">
+      <DependentUpon>Cadastro_aluno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Cadastro_curso.xaml.cs">
+      <DependentUpon>Cadastro_curso.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Cadastro_Escola.xaml.cs">
       <DependentUpon>Cadastro_Escola.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Cadastro_Turma.xaml.cs">
+      <DependentUpon>Cadastro_Turma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Consulta_aluno.xaml.cs">
+      <DependentUpon>Consulta_aluno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Consulta_curso.xaml.cs">
+      <DependentUpon>Consulta_curso.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Consulta_Escola.xaml.cs">
+      <DependentUpon>Consulta_Escola.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Consulta_Turma.xaml.cs">
+      <DependentUpon>Consulta_Turma.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -121,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Recursos\Imagens\seta-esquerda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Imagens\average.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,7 +30,7 @@
             </StackPanel>
             <WrapPanel Grid.Column="1" HorizontalAlignment="right" VerticalAlignment="Center">
                 <Label Content="Usuário" FontSize="15" />
-                <Image Source="Recursos/Imagens/user.png"/>
+                <Image Source="../Recursos/Imagens/user.png"/>
             </WrapPanel>
         </Grid>
 
@@ -45,16 +45,16 @@
 
             <StackPanel Grid.Column="0">
                 <TextBlock Text="Cadastro" FontSize="20" />
-                <Button Content="Escola" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Curso" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Turma" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Aluno" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
+                <Button Content="Escola" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click"/>
+                <Button Content="Curso" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_1"/>
+                <Button Content="Turma" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_2"/>
+                <Button Content="Aluno" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_3"/>
 
                 <TextBlock Text="Consulta" FontSize="20" Margin="10, 10, 0, 0"/>
-                <Button Content="Escola" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Curso" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Turma" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
-                <Button Content="Aluno" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC"/>
+                <Button Content="Escola" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_4"/>
+                <Button Content="Curso" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_5"/>
+                <Button Content="Turma" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_6"/>
+                <Button Content="Aluno" FontSize="16" BorderBrush="#EFC88B" Background="#FFF8DC" Click="Button_Click_7"/>
             </StackPanel>
 
             <StackPanel Grid.Column="1">
@@ -80,7 +80,7 @@
 
             <StackPanel Grid.Column="5">
                 <Button Background="#FFF8DC" BorderBrush="#FFF8DC" Padding="30">
-                    <Image Source="../Recursos/imagens/calendar.png"/>
+                    <Image Source="../Recursos/imagens/average.png"/>
                 </Button>
                 <Label Content="Média" HorizontalAlignment="Center" FontSize="25"/>
             </StackPanel>
