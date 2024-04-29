@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Thiago\Downloads\TelaMenu-WPF-\obj\Debug\
+C:\Users\Thiago\Downloads\TelaMenu-WPF-\obj\Release\
 MenuTela
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Thiago\Downloads\TelaMenu-WPF-\App.xaml
 91397665286
 
@@ -16,5 +16,5 @@ C:\Users\Thiago\Downloads\TelaMenu-WPF-\App.xaml
 13-1310406943
 Telas\Cadastro_aluno.xaml;Telas\Cadastro_curso.xaml;Telas\Cadastro_Escola.xaml;Telas\Cadastro_Turma.xaml;Telas\Consulta_aluno.xaml;Telas\Consulta_curso.xaml;Telas\Consulta_Escola.xaml;Telas\Consulta_Turma.xaml;Telas\MainWindow.xaml;
 
-False
+True
 
